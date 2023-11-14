@@ -1,0 +1,359 @@
+body{
+ background-image: url(4.jpg);
+ background-size:cover;
+background-repeat: no-repeat;   
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    margin-top:25px;
+    margin-left: 1500px;
+  }
+
+  a {
+    text-decoration: none;
+    background:#320bbe;
+    color:#d6d6d6;
+    padding:10px;
+    font-family: arial;
+    border-radius:4px;
+    -moz-transition: all 0.3s 0.01s ease;
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+  }
+  a:hover {
+    background:#1C85BB;
+  }
+  li {
+    float:left;
+    margin-right:5px;
+    
+  }
+.text1{
+ position: absolute;
+ left: 30px;
+ top: 150px;
+}
+.text2{
+    position: absolute;
+    left: 20px;
+    top: 185px;
+}
+.img13{
+    margin-left: -1800px;
+    width: 130px;
+    height: 130px;
+    
+}
+.img1{
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    left: 920px;
+    top:700px;
+}
+.logo-text{
+    font-size: 35px;
+    color: rgb(29, 114, 189);
+    margin-top: -110px;
+    margin-left: 135px;
+}
+.logo-text2{
+    font-size: 35px;
+    color: rgb(16, 114, 199);
+    margin-top: -10px;
+    margin-left: 150px;
+}
+.content{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+.bl{
+  background-color: rgb(18, 46, 82);
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 965px;
+  left: 0px;
+}
+.in{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 39px;
+  margin-left: 750px;
+} .slider{
+  width: 1100px;
+  height: 600px;
+  overflow: hidden;
+  border: 1px solid #fff;
+}
+.middle{
+  position: absolute;
+  top: 600px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.navigation{
+  position: absolute;
+  left: 24%;
+  top: 200px;
+}
+.bar{
+  color: #fff;
+  display: inline-block;
+  margin-right: 80px;
+  font-size: 25px;
+  cursor: pointer;
+  transition: all .6s ;
+}
+.bar:hover{
+  color: #383636;
+  transform: scale(1.1);
+}
+input[name = "r"]{
+  position: absolute;
+  visibility: hidden;
+}
+.slides{
+  width: 400%;
+  height: 100%;
+  display: flex;
+}
+.slide{
+  width: 25%;
+  transition: all .7s ease;
+}
+.slide img{
+  width: 100%;
+  height: 100%;
+}
+.slide img{
+  width: 100%;
+  height: 100%;
+}
+#r1:checked ~ .s1{
+  margin-left:0px;
+}
+#r2:checked ~ .s1{
+  margin-left:-25% ;
+}
+#r3:checked ~ .s1{
+  margin-left:-50%;
+}
+#r4:checked ~ .s1{
+  margin-left:-75%;
+}
+.line{
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #464343;
+  top: 963px;
+} 
+.contenti{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+.bli{
+  background-color: rgb(18, 38, 68);
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 1900px;
+  left: 0px;
+  max-height: 1000px;
+}
+.lin3:hover{
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #102449;
+  top: 1500px;
+}
+.section{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  }
+  .Media_div{
+      position: relative;
+      width: 1200px;
+      height: 0px;
+      left: 670px;
+      top: 100px;   
+      color: #11294e; 
+  }
+  .P_media{
+      font-size: 60px;
+      color: #fff;
+      font-family: 'Josefin Sans', sans-serif;
+  }
+  .Media_div2{
+      position: relative;
+      width: 1200px;
+      height: 0px;
+      left: 530px;
+      top: 200px;    
+  }
+  .P_media2{
+      font-size: 30px;
+      color: #fff;
+      font-family: 'Josefin Sans', sans-serif;
+  }
+  .More{
+      position: relative;
+      border: 0px;
+      border-radius: 5px;
+      background-color: #494040;
+      color: #fff;
+      font-size: 30px;
+      width: 230px;
+      height: 90px;
+      top: 400px;
+      font-family: 'Josefin Sans', sans-serif;
+      left: 844px;
+      transition: .4s;
+  }
+  .More:hover{
+      background-color: #6f0f0f;
+      width: 235px;
+      height: 95px;
+      top: 430px;
+      left: 839px;
+  }
+  
+  .line2{
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background-color: #ff0000;
+      top: 945px;
+  }
+  .content2{
+    width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  }
+  .blii{
+    background-color: rgb(17, 37, 75);
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 130%;
+    top: 947px;
+    left: 0px;
+    max-height: 1200px;
+  }
+  .card_div{
+      position: relative;
+      width: 100%;
+      height: 0px;
+  }
+  .card_text{
+      color: #fff;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 60px;
+      text-align: center;
+  }
+  .slider1{
+      width: 900px;
+      height: 500px;
+      overflow: hidden;
+      border: 3px solid #fff;
+      border-radius: 10px;
+   }
+   .slide li{
+      color: #fff;
+      position: relative; 
+      top: 650px;
+      left: 30px;
+      font-size: 40px;
+      list-style-type: none;
+      margin-top: 20px;
+   }
+   .middle1{
+      position: absolute;
+      top: 700px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+   }
+   .navigation1{
+      position: absolute;
+      left: 24%;
+      top: 550px;
+   }
+   .bar1{
+      display: block;
+      width: 250px;
+      height: 90px;
+      color: #fff;
+      text-align: center;
+      font-size: 30px;
+      background-color: #3d3939;
+      border-radius: 5px;
+      border: 2px solid #fff;
+      cursor: pointer;
+      transition: all .6s ;
+      padding-top: 20px;
+   }
+   .bar1:hover{
+      background-color: #6f0f0f;
+   }
+   #bara1{
+      position: relative;
+      left: 357px;
+      bottom: 300px;
+   }
+   #bara2{
+      position: relative;
+      right: 390px;
+      top: 0px;
+   }
+   #bara3{
+      position: relative;
+      left: 1100px;
+      bottom: 76px;
+      z-index: 2;
+   }  
+   #bara4{
+      position: relative;
+      top: 150px;
+      left: 357px;
+   }
+  input[name = "r1"]{
+      position: absolute;
+      visibility: hidden;
+  }
+  #r5:checked ~ .s6{
+      margin-left:0px;
+  }
+  #r6:checked ~ .s6{
+      margin-left:-25% ;
+  }
+  #r7:checked ~ .s6{
+      margin-left:-50%;
+  }
+  #r8:checked ~ .s6{
+      margin-left:-75%;
+  }
+  .content3{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;}
+  .bl2{
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 65%;
+    top: 2146px;
+    left: 0px;
+  }
+
+
+
+  
